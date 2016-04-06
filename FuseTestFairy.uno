@@ -2,8 +2,8 @@ using Uno;
 using Uno.Collections;
 using Fuse;
 using Uno.Compiler.ExportTargetInterop;
-public class TestFairy : Behavior {
-	public TestFairy () {
+public class FuseTestFairy : Behavior {
+	public FuseTestFairy () {
 		Uno.Platform2.Application.EnteringForeground += OnEnteringForeground;
 	}
 
@@ -12,10 +12,14 @@ public class TestFairy : Behavior {
 		Init();
 	}
 
+	bool _inited = false;
 	void Init() {
+		if (_inited)
+			return;
 		if (Token == null) {
 			return;
 		}
+		_inited = true;
 		if defined(iOS) 
 			InitImpl(Token);
 	}

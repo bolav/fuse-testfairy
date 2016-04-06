@@ -27,6 +27,5 @@
   ],
   "Includes": [
     "*",
-    "libs/ios/TestFairy.h:ObjCHeader:iOS"
   ]
 }
