@@ -10,6 +10,6 @@ Using [fusepm](https://github.com/bolav/fusepm)
     $ fusepm install https://github.com/bolav/fuse-testfairy
 
 
-## Usage:
+## Usage
 
 Add a `<FuseTestFairy Token="@enter token here" />` to your `App` ux, for initialization.
