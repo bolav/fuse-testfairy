@@ -1,0 +1,5 @@
+<Package>
+    <Extensions Backend="CPlusPlus" Condition="iOS">
+        <ProcessFile Name="Podfile" />
+    </Extensions>
+</Package>
