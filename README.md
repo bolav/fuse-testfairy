@@ -1,4 +1,4 @@
-Fuse CocoaPods
+Fuse TestFairy
 ==============
 
 Module to use [TestFairy](https://testfairy.com/) in [Fuse](http://www.fusetools.com/).
