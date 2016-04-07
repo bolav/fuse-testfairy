@@ -26,14 +26,10 @@
     "Uno.Geometry"
   ],
   "Includes": [
-    "*.uno",
-    "*.ux",
-    "*.uxl"
+    "FuseTestFairy.uno",
+    "CocoaPods.uxl"
   ],
   "Projects": [
-    "fuse_modules/bolav/fuse-cocoapods/cocoapods_include.unoproj"
-  ],
-  "Excludes": [
-    "fuse_modules/"
+    "https://github.com/bolav/fuse-cocoapods"
   ]
 }
