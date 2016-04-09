@@ -29,7 +29,8 @@
     "FuseTestFairy.uno",
     "CocoaPods.uxl"
   ],
-  "Projects": [
-    "https://github.com/bolav/fuse-cocoapods"
-  ]
+  "FusePM": {
+    "Dependencies" : [
+      "https://github.com/bolav/fuse-cocoapods"
+    ]}
 }
