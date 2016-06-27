@@ -1,4 +1,4 @@
-<App Theme="Basic">
+<App>
 	<FuseTestFairy Token="@enter token here"/>
 </App>
 
