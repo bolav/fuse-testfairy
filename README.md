@@ -1,4 +1,4 @@
-Fuse TestFairy
+Fuse TestFairy [![Build Status](https://travis-ci.org/bolav/fuse-testfairy.svg?branch=master)](https://travis-ci.org/bolav/fuse-testfairy) ![Fuse Version](https://fuse-version.herokuapp.com/?repo=https://github.com/bolav/fuse-testfairy)
 ==============
 
 Module to use [TestFairy](https://testfairy.com/) in [Fuse](http://www.fusetools.com/).
